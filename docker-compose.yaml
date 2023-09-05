@@ -1,0 +1,13 @@
+services:
+  debian.latest:
+    build: 
+      context: ./src
+      target: debian.latest    
+  ubuntu.latest:
+    build: 
+      context: ./src
+      target: ubuntu.latest
+  # debian-non-root.latest:
+  #   build: 
+  #     context: ./src
+  #     target: debian-non-root.latest
