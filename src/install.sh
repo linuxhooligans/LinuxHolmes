@@ -10,4 +10,4 @@ apt -y install --no-install-recommends qemu-system libvirt-clients libvirt-daemo
 #     adduser $(id -u -n) libvirt 
 # fi
 
-virsh list --all
+# virsh list --all
